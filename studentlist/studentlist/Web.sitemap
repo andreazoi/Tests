@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="DummyRoot">
+    <siteMapNode url="Admin_Dashbord.aspx" title="Home" description="About Us Page" />
+    <siteMapNode url="StudentsList.aspx" title="Student List" description="Student List" />
+    
+
+  </siteMapNode>
+</siteMap>
+
+  

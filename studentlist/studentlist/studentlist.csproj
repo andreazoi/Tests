@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39DD3094-6DE0-460A-9D45-1C61510CBDAF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>studentlist</RootNamespace>
+    <AssemblyName>studentlist</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\fonts\glyphicons-halflings-regulard41dd41d.eot" />
+    <Content Include="assets\fonts\icomoon\icomoon771e771e.eot" />
+    <Content Include="assets\fonts\icomoon\icomoon771e771e.ttf" />
+    <Content Include="assets\fonts\icomoon\icomoon771e771e.woff" />
+    <Content Include="assets\New folder\fa-regular-400.eot" />
+    <Content Include="assets\New folder\fa-regular-400.ttf" />
+    <Content Include="assets\New folder\fa-regular-400.woff" />
+    <Content Include="assets\New folder\fa-regular-400.woff2" />
+    <Content Include="assets\webfonts\fa-brands-400.eot" />
+    <Content Include="assets\webfonts\fa-brands-400.ttf" />
+    <Content Include="assets\webfonts\fa-brands-400.woff" />
+    <Content Include="assets\webfonts\fa-brands-400.woff2" />
+    <Content Include="assets\webfonts\fa-solid-900.eot" />
+    <Content Include="assets\webfonts\fa-solid-900.ttf" />
+    <Content Include="assets\webfonts\fa-solid-900.woff" />
+    <Content Include="assets\webfonts\fa-solid-900.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddNewStudent.aspx" />
+    <Content Include="Admin_Dashbord.aspx" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\c3\c3.css" />
+    <Content Include="assets\css\circliful\circliful.css" />
+    <Content Include="assets\css\fontawesome-all.min.css" />
+    <Content Include="assets\css\Hover.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\material-design-iconic-font.min.css" />
+    <Content Include="assets\css\materialadmin.css" />
+    <Content Include="assets\css\newstylesheet.css" />
+    <Content Include="assets\css\pikaday.css" />
+    <Content Include="assets\css\site.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\theme.css" />
+    <Content Include="assets\css\toast.css" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\icomoon\icomoon.css" />
+    <Content Include="assets\fonts\icomoon\icomoon771e771e.svg" />
+    <Content Include="assets\Img\logo.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\c3\c3.custom.js" />
+    <Content Include="assets\js\c3\c3.js" />
+    <Content Include="assets\js\chosen.jquery.js" />
+    <Content Include="assets\js\circliful\circliful.custom.js" />
+    <Content Include="assets\js\circliful\circliful.min.js" />
+    <Content Include="assets\js\custom.js" />
+    <Content Include="assets\js\d3\d3.v3.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jvectormap\gdp-data.js" />
+    <Content Include="assets\js\jvectormap\jquery-jvectormap-2.0.3.min.js" />
+    <Content Include="assets\js\jvectormap\world-map.js" />
+    <Content Include="assets\js\jvectormap\world-mill-en.js" />
+    <Content Include="assets\js\Libs\bootstrap\bootstrap.min.js" />
+    <Content Include="assets\js\Libs\jquery.nanoscroller\jquery.nanoscroller.min.js" />
+    <Content Include="assets\js\Libs\jquery\jquery-1.11.2.min.js" />
+    <Content Include="assets\js\peity\custom-peity.js" />
+    <Content Include="assets\js\peity\peity.min.js" />
+    <Content Include="assets\js\pikaday.jquery.js" />
+    <Content Include="assets\js\scrollup\jquery.scrollUp.js" />
+    <Content Include="assets\js\source\App.js" />
+    <Content Include="assets\js\source\AppNavigation.js" />
+    <Content Include="assets\js\sparkline\custom-sparkline.js" />
+    <Content Include="assets\js\sparkline\retina.js" />
+    <Content Include="assets\js\toaster.js" />
+    <Content Include="assets\New folder\fa-regular-400.svg" />
+    <Content Include="assets\webfonts\fa-brands-400.svg" />
+    <Content Include="assets\webfonts\fa-solid-900.svg" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PanelStyl.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="editStudent.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Highcharts-4.0.1\js\adapters\standalone-framework.js" />
+    <Content Include="Highcharts-4.0.1\js\adapters\standalone-framework.src.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts-3d.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts-3d.src.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts-all.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts-more.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts-more.src.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts.js" />
+    <Content Include="Highcharts-4.0.1\js\highcharts.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\canvas-tools.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\canvas-tools.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\data.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\data.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\drilldown.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\drilldown.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\exporting.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\exporting.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\funnel.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\funnel.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\heatmap.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\heatmap.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\no-data-to-display.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\no-data-to-display.src.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\solid-gauge.js" />
+    <Content Include="Highcharts-4.0.1\js\modules\solid-gauge.src.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\dark-blue.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\dark-green.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\dark-unica.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\gray.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\grid-light.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\grid.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\sand-signika.js" />
+    <Content Include="Highcharts-4.0.1\js\themes\skies.js" />
+    <Content Include="Images\arrow-down %281%29.gif" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\delete2.png" />
+    <Content Include="Images\dhlhome.jpg" />
+    <Content Include="Images\dhl_picture.jpg" />
+    <Content Include="Images\down_arrow.png" />
+    <Content Include="Images\EDIt.svg.png" />
+    <Content Include="Images\facebook.svg" />
+    <Content Include="Images\glo-core-contact-us.svg" />
+    <Content Include="Images\glo-core-getaquote.svg" />
+    <Content Include="Images\glo-core-log-in.svg" />
+    <Content Include="Images\glo-core-online.svg" />
+    <Content Include="Images\glo-core-pictograms-service-logistics.svg" />
+    <Content Include="Images\glo-core-sector-automotive.svg" />
+    <Content Include="Images\glo-core-sector-chemicals.svg" />
+    <Content Include="Images\glo-core-sector-consumer.svg" />
+    <Content Include="Images\glo-core-sector-energy.svg" />
+    <Content Include="Images\glo-core-sector-engineering.svg" />
+    <Content Include="Images\glo-home-our-businesses-background-plane4.web.1366.574.jpg" />
+    <Content Include="Images\glo-products-and-solutions.web.1365.434.jpg" />
+    <Content Include="Images\Hadi Service.png" />
+    <Content Include="Images\hadi services.jpg" />
+    <Content Include="Images\HOM2.jpg" />
+    <Content Include="Images\home3.jpg" />
+    <Content Include="Images\images.jpg" />
+    <Content Include="Images\insert.png" />
+    <Content Include="Images\insertrow.png" />
+    <Content Include="Images\latest-beautiful-sights-hd-desktop-wallpaper-instagram-photo-plain-design-wallpaper-beautiful-background-full-size.jpg" />
+    <Content Include="Images\linkedin.svg" />
+    <Content Include="Images\loader.gif" />
+    <Content Include="Images\loaderw.gif" />
+    <Content Include="Images\loadingAnim.gif" />
+    <Content Include="Images\minus.png" />
+    <Content Include="Images\order-512.png" />
+    <Content Include="Images\plus.png" />
+    <Content Include="Images\Red-arrow-segmentspoint-up_orig.gif" />
+    <Content Include="Images\select.png" />
+    <Content Include="Images\spinner-svg-animation-6.gif" />
+    <Content Include="Images\SuccessStory\whyus.jpg" />
+    <Content Include="Images\SuccessStory\whyus1.jpg" />
+    <Content Include="Images\UpadteIcon.png" />
+    <Content Include="Images\up_arrow.png" />
+    <Content Include="Images\user_image.png" />
+    <Content Include="Images\whyUs\whyus.jpg" />
+    <Content Include="Images\youtube.svg" />
+    <Content Include="Login.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="masterPage.Master" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <None Include="Scripts\_references.js" />
+    <Content Include="StudentsList.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewStudent.aspx.cs">
+      <DependentUpon>AddNewStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNewStudent.aspx.designer.cs">
+      <DependentUpon>AddNewStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Dashbord.aspx.cs">
+      <DependentUpon>Admin_Dashbord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_Dashbord.aspx.designer.cs">
+      <DependentUpon>Admin_Dashbord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editStudent.aspx.cs">
+      <DependentUpon>editStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editStudent.aspx.designer.cs">
+      <DependentUpon>editStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentsList.aspx.cs">
+      <DependentUpon>StudentsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentsList.aspx.designer.cs">
+      <DependentUpon>StudentsList.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\CitiesDataAccessLayer.cs" />
+    <Content Include="App_Code\commancode.cs" />
+    <Compile Include="commancode.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterPage.Master.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterPage.Master.designer.cs">
+      <DependentUpon>masterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50342</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50342/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

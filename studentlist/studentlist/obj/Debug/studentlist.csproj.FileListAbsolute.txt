@@ -1,0 +1,61 @@
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\obj\Debug\studentlist.csprojResolveAssemblyReference.cache
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\csc.exe
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\System.Collections.Immutable.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\vbc.exe
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\VBCSCompiler.exe
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\roslyn\VBCSCompiler.exe.config
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\studentlist.dll.config
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\studentlist.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\studentlist.pdb
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\obj\Debug\studentlist.dll
+c:\users\sohail computer\documents\visual studio 2015\Projects\studentlist\studentlist\obj\Debug\studentlist.pdb
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\csc.exe
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\studentlist.dll.config
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\studentlist.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\studentlist.pdb
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\obj\Debug\studentlist.csprojAssemblyReference.cache
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\obj\Debug\studentlist.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\obj\Debug\studentlist.csproj.CopyComplete
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\obj\Debug\studentlist.dll
+C:\Users\User\Desktop\csharp final project\studentlist\studentlist\obj\Debug\studentlist.pdb
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\csc.exe
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\studentlist.dll.config
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\studentlist.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\studentlist.pdb
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\obj\Debug\studentlist.csprojAssemblyReference.cache
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\obj\Debug\studentlist.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\obj\Debug\studentlist.csproj.CopyComplete
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\obj\Debug\studentlist.dll
+C:\Users\User\Desktop\asp.net andreazoi project\studentlist\studentlist\obj\Debug\studentlist.pdb
